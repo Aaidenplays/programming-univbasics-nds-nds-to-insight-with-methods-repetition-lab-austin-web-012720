@@ -52,7 +52,7 @@ def total_gross(source)
   director_index = 0
   total = 0 
   while director_index < directors_list.size
-    total += directors_grosses[directors_list[director_index]]
+    total += directors_grosses[directors_list[director_index]] 
     director_index += 1
   end
   total
